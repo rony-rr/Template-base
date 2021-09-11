@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "MyRecipe",
+    "slug": "my-recipe",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.6",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ideatechstudio.myrecipe",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "6.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8287263841467710~5597043129"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.ideatechstudio.myrecipe",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 6,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8287263841467710~5597043129"
+      },
+      "permissions": [
+        "READ_PHONE_STATE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MANAGE_DOCUMENTS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Personal Recipes"
+  }
+}
